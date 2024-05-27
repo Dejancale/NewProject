@@ -1,0 +1,25 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f7f7f7; }
+header { background: #0078d4; color: white; padding: 20px 0; text-align: center; }
+nav ul { list-style-type: none; padding: 0; overflow: hidden; background-color: #333; }
+nav li { float: left; }
+nav li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+nav li a:hover { background-color: #111; }
+.page { padding: 20px; }
+footer { background: #0078d4; color: white; text-align: center; padding: 10px 0; position: absolute; bottom: 0; width: 100%; }
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('https://www.facebook.com/photo?fbid=934764649914786&set=pob.100009094523813.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
